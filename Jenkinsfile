@@ -7,7 +7,7 @@ pipeline {
 
         stage('Build image') {
             steps {  
-                sh 'docker build -t kbindesh/flaskapp:$BUILD_NUMBER .'
+                sh 'docker build -t sanku7668/flaskapp:$BUILD_NUMBER .'
             }
         }
         stage('Test image'){
